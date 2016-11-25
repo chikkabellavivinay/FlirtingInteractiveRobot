@@ -1,0 +1,324 @@
+/*face properties*/
+body{
+  box-shadow:2px 2px 10px 5px black;
+    background:#ed733b;
+}
+
+#head{
+  display:flex;
+  flex-direction:column;
+  margin-left:370px;
+}
+#hair{
+  flex:1;
+  background:black;
+  height:20px;
+  width:100px;
+  border:2px solid black;
+  border-radius:0px 45px 0px 0px;
+  transform:skewX(5deg);
+}
+#face{
+  flex:1;
+  background:#8B5F4A;
+  height:100px;
+  width:100px;
+  border:2px solid black;
+  border-bottom:22px solid black;
+  border-radius:0px 0px 50px 50px;
+  }
+
+#neck{
+  background:#8B5F4A;
+  height:50px;
+  width:60px;
+  border:2px solid black;
+  border-radius:80px 80px 100px 100px;
+  margin-left:390px;
+  margin-bottom:-50px;
+}
+/*shoulder properties*/
+
+#shoulder{
+  margin-left:269px;
+  display:flex;
+  flex-direction:row;
+}
+
+#leftshoulder{
+  background:#302f2e;
+  width:150px;
+  height:50px;
+  border:2px solid black;
+  border-radius:29px 10px 0px 0px;
+}
+
+#rightshoulder{
+  background:#302f2e;
+  width:150px;
+  height:50px;
+  border:2px solid black;
+  border-radius:10px 29px 0px 0px;
+  }
+
+#chest{
+  display:flex;
+  flex-direction:row;
+}
+
+#handleft{
+  margin-top:-15px;
+  background:#474625;
+  width:180px;
+  height:40px;
+  border:2px solid black;
+  border-radius:10px 0px 0px 0px;
+}
+
+#bicepsleft{
+  margin-top:-30px;
+  background:black;
+  width:30px;
+  height:75px;
+  border:2px solid black;
+  border-radius:20px 0px 0px 25px;
+}
+
+#chestleft{
+  background:#474625;
+  width:150px;
+  height:80px;
+  border:2px solid black;
+  border-radius:0px 0px 25px 25px;
+}
+
+#chestright{
+  background:#474625;
+  width:150px;
+  height:80px;
+  border:2px solid black;
+  border-radius:0px 0px 25px 25px;
+  }
+
+#bicepsright{
+  margin-top:-30px;
+  background:black;
+  width:30px;
+  height:75px;
+  border:2px solid black;
+  border-radius:0px 20px 25px 0px;
+}
+
+#handright{
+  border-radius:0px 10px 0px 0px;
+  margin-top:-15px;
+  background:#474625;
+  width:180px;
+  height:40px;
+  border:2px solid black;
+  }
+
+#rightfinger{
+  border:2px solid black;
+  margin-top:-20px;
+  height:55px;
+  width:50px;
+  background:#474625;
+  border-radius:20px 50px 20px 20px;
+}
+
+#leftfinger{
+  border:2px solid black;
+  margin-top:-20px;
+  height:55px;
+  width:50px;
+  background:#474625;
+  border-radius:50px 20px 20px 20px;
+}
+
+#stomach{
+  background:#474625;
+  width:280px;
+  height:280px;
+  border:2px solid black;
+  border-radius:30px 30px 50px 50px;
+  margin-left:280px;
+  }
+
+#shorts{
+  margin-left:280px;
+  display:flex;
+  flex-direction:row; 
+}
+
+#shortleft{
+   background:#474625;
+  width:150px;
+  height:150px;
+  border:2px solid black;
+  border-radius:50px 0px 30px 50px;
+  animation:walkone 1s infinite;
+}
+
+#shortright{
+   background:#474625;
+  width:150px;
+  height:150px;
+  border:2px solid black;
+  border-radius:00px 50px 50px 30px;
+animation:walkone 1s infinite;
+}
+
+#legs{
+  display:flex;
+  flex-direction:row;
+}
+
+#leftleg{
+  margin-left:317px;
+   background:#474625;
+  width:80px;
+  height:160px;
+  border:2px solid black;
+  border-radius:10px 10px 25px 25px;
+animation:walkone 1s infinite;
+}
+
+#rightleg{
+  margin-left:57px;
+   background:#474625;
+  width:80px;
+  height:160px;
+  border:2px solid black;
+  border-radius:10px 10px 25px 25px;
+animation:walktwo 1s infinite;
+}
+
+#feet{
+  display:flex;
+  flex-direction:row;
+}
+
+#leftfoot{
+  margin-left:317px;
+   background:red;
+  width:80px;
+  height:40px;
+  border:2px solid black;
+  border-radius:20px 20px 5px 5px;
+ animation:walkone 1s infinite;
+}
+
+#rightfoot{
+  margin-left:57px;
+   background:red;
+  width:80px;
+  height:40px;
+  border:2px solid black;
+  border-radius:20px 20px 5px 5px;
+  animation:walktwo 1s infinite;
+  
+}
+
+#goggles{
+  display:flex;
+  }
+#gogglesleft{
+  background:white;
+  margin-top:25px;
+  height:20px;
+  width:25px;
+  border-radius: 60px 30px 10px 10px;
+  }
+
+#gogglesright{
+  background:white;
+  margin-top:25px;
+  height:20px;
+  width:25px;
+  border-radius: 30px 60px 10px 10px;
+  }
+
+#nose{
+  width:5px;
+  height:5px;
+  border-radius:10px 10px 0px 0px;
+  background:black;
+}
+
+#lips{
+  background:white;
+ width:60px;
+  height:10px;
+  border-radius: 0px 0px 60px 60px;
+ }
+
+p{
+  font-size:32px;
+  font-family:fantasy;
+  color: blue;
+}
+
+@keyframes goggles{
+  0%{
+    height:0px;
+    
+  }
+  100%{
+    height:20px;
+    width:20px;
+  }
+}
+
+@keyframes kiss{
+  0%{
+    width:5px;
+  }
+  20%{
+    width:10px;
+    background:red;
+  }
+  50%{
+    width:10px;
+    background:red;
+  }
+  70%{
+    width:15px;
+    background:red;
+  }
+  100%{
+    width:50px;
+  }
+}
+
+@keyframes sqeez{
+  0%{
+  border-radius:30px 30px 50px 50px;
+}
+  100%{
+   border-radius: 70px 70px 100px 100px;
+  }
+}
+
+@keyframes colors{
+  0%{
+    background:red;
+  }
+  100%{
+    background:pink;
+  }
+}
+
+@keyframes walkone{
+  50%{
+    transform:rotate(20deg);
+    box-shadow:1px 1px 20px 10px blue;
+  }
+}
+
+@keyframes walktwo {
+  50%{
+    transform:rotate(20deg);
+    box-shadow:1px 1px 20px 10px blue;
+  }
+}
